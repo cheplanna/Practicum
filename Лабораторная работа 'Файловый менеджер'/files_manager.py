@@ -69,7 +69,4 @@ def archive_item(dir):
 def unpack_archive_item(dir):
     shutil.unpack_archive(dir,'zip')
 sign_in()
-create_file('lox','rwerwerwerwerwe')
-#move_file('C:\\Users\\Nikita\\Desktop\\file-manager\\nikita\\new','C:\\Users\\Nikita\\Desktop\\file-manager\\nikita\\whate2ver\\new')
-#archive_item('C:\\Users\\Nikita\\Desktop\\file-manager\\nikita\\whate2ver\\frwerw')
-#unpack_archive_item('C:\\Users\\Nikita\\Desktop\\file-manager\\nikita\\whate2ver\\frwerw.zip')
+create_file('new','rwerwerwerwerwe')
