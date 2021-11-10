@@ -68,5 +68,43 @@ def archive_item(dir):
 #Функция разархивации
 def unpack_archive_item(dir):
     shutil.unpack_archive(dir,'zip')
-sign_in()
-create_file('new','rwerwerwerwerwe')
+
+command_string = """create_d -- создать директорию
+delete_d -- удалить директорию
+change -- сменить директорию
+make_f -- создать файл
+write_f -- записать в файл
+read_f -- прочитать из файла
+remove_f -- удалить файл
+copy_f -- скопировать файл
+replace_f -- переместить файл
+rename_f -- переименовать файл
+exit -- завершить работу"""
+print(command_string)
+explorer = Explorer(default_folder)
+while True:
+    command = input((os.getcwd() + "\\").replace(default_folder, "") + ":$ ").split()
+
+    if command[0] == "create_d":
+        explorer.create_dir(command[1])
+    elif command[0] == "delete_d":
+        explorer.remove_dir(command[1])
+    elif command[0] == "change":
+        explorer.change_dir(command[1])
+    elif command[0] == "make_f":
+        explorer.touch(command[1])
+    elif command[0] == "write_f":
+        explorer.write_data(command[1])
+    elif command[0] == "read_f":
+        explorer.read_data(command[1])
+    elif command[0] == "remove_f":
+        explorer.remove_f(command[1])
+    elif command[0] == "copy_f":
+        explorer.copy_file(command[1], command[2])
+    elif command[0] == "replace_f":
+        explorer.replace_file(command[1], command[2])
+    elif command[0] == "rename_f":
+        explorer.rename_file(command[1], command[2])
+
+    elif command[0] == 'exit':
+        break
