@@ -48,4 +48,3 @@ GIF
 Работа сервера из консоли
 
 ![image](https://user-images.githubusercontent.com/72358616/147177715-f5001fd1-c4d2-4ed8-aa53-65eee75b305f.png)
-
