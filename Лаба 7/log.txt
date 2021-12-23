@@ -3,5 +3,7 @@
 Port> 9090
 Начинаем слушать
 Folder already exists
-pwd
-cd ..
+echo example.txt
+wrong format
+echo example.txt C:\Users\Anna\Documents\Practicum\Лаба 7\anna
+
