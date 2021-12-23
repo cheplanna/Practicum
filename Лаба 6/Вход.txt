@@ -1,0 +1,7 @@
+Дата: Sat, 18 Dec 2021 21:09:15 GTM
+Адрес польователя: ('127.0.0.1', 64729)
+Директория: С:\Users\Anna\Desktop\Practicum\Лаба 6\index.html
+Дата: Sat, 18 Dec 2021 21:09:15 GTM
+Адрес польователя: ('127.0.0.1', 64730)
+Директория: С:\Users\Anna\Desktop\Practicum\Лаба 6\404.html
+
